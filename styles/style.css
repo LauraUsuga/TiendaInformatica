@@ -1,0 +1,243 @@
+/*Google Fonts
+font-family: 'Dancing Script', cursive;
+font-family: 'KoHo', sans-serif;*/
+
+/*Estilos generales*/
+
+h3,
+.navbar-brand,
+.btn-primary{
+    font-family: 'Dancing Script', cursive; 
+}
+
+h1,
+h2,
+h4,
+p,
+a{
+    font-family: 'KoHo', sans-serif; 
+}
+
+#wp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(38, 212, 105, 0.699);
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 26pt;
+}
+
+#wp a{
+    color: white;
+    text-decoration: none;
+}
+
+#wp a:hover{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(38, 212, 105);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30pt;
+}
+
+/*Estilos nav*/
+
+nav.bg-dark{
+    background-color: rgba(0, 0, 0, 0.5) !important; 
+    color: #ffff;
+}
+
+.nav-link{
+    color: #ffff !important;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+nav.bg-green{
+    background-color: #225a40ef !important;
+    padding: 10pt;
+    font-size: 13pt;
+    transition: all 1s ease;
+}
+
+.nav-link:hover{
+    color: #abbea5;
+    padding-bottom: 5pt;
+    border-bottom: 2px solid #abbea5;
+}
+
+.nav-link.active{
+    background-color: rgba(255, 255, 255, 0.863);
+    color: #225a40ef !important;
+    border-radius: 5px;
+}
+
+.jm{
+    color: white;
+}
+
+.jm:hover{
+    color: #cafabb;
+}
+
+/*Estilos header*/
+
+.fondo{
+    background-image: url("image/matrix.jpg");
+    background-color: transparent;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+header h2{
+    font-size: 30pt;
+}
+
+header p{
+    font-size: 20pt;
+}
+
+.btn-success{
+    padding: 10pt 45pt 10pt 45pt;
+    border-radius: 5pt;
+    font-size: 15pt;
+}
+
+/*Estilos main*/
+
+section{
+    padding: 20pt;
+}
+
+section h2{
+    padding: 18pt;
+}
+
+.i-service{
+    color: white;
+    background-color: #198754;
+    border-radius: 50%;
+    width: 70pt;
+    height: 70pt;
+    padding: 15pt;
+    font-size: 40pt;
+}
+
+.color{
+    background-color: #f8f9fa;
+}
+
+/*Product section*/
+
+section{
+    padding: 30pt;
+}
+
+.color img{
+    width: 230pt;
+}
+
+.modal-header{
+    border: none;
+}
+
+.modal-body{
+    text-align: center;
+    border: none;
+}
+
+.modal-body h2{
+    font-size: 3rem;
+    color: #198754;
+}
+
+.modal-footer{
+    border: none;
+    justify-content: center;
+}
+
+/*About section*/
+
+h3{
+    color: #198754;
+    font-size: 24pt;
+}
+
+p{
+    font-size: 13pt;
+}
+
+#about h2{
+    padding-bottom: 30pt;
+}
+
+.img-about{
+    width: 250pt;
+    border-radius: 50%;
+}
+
+/*Contact Section*/
+
+#contact li{
+    display: inline;
+    padding: 10pt;
+}
+
+#contact a{
+    color: rgb(11, 34, 0);
+    font-size: 30pt;
+    text-decoration: none;
+}
+
+.maps{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #198754c4;
+    padding: 15pt;
+}
+
+footer h3{
+    color: rgb(11, 34, 0);
+}
+
+footer p{
+    color: white;
+}
+
+.i-footer{
+    color: rgb(11, 34, 0);
+    font-size: 18pt;
+}
+
+#final{
+    padding: 10pt;
+    text-align: center;
+}
+
+#final h1{
+    font-size: 12pt;
+}
+
+#final p{
+    font-size: 10pt;
+}
