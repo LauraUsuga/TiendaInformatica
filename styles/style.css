@@ -43,14 +43,14 @@ h2{
 
 #wp a:hover{
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 15pt;
+    right: 15pt;
     background-color: rgba(38, 212, 105);
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 45pt;
+    width: 45pt;
     text-align: center;
-    line-height: 60px;
+    line-height: 55pt;
     font-size: 30pt;
 }
 
