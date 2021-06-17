@@ -1,21 +1,26 @@
 /*Google Fonts
-font-family: 'Dancing Script', cursive;
-font-family: 'KoHo', sans-serif;*/
+font-family: 'Kaushan Script', cursive;
+font-family: 'Comfortaa', sans-serif;*/
 
 /*Estilos generales*/
 
 h3,
+h2,
 .navbar-brand,
 .btn-primary{
-    font-family: 'Dancing Script', cursive; 
+    font-family: 'Kaushan Script', cursive; 
 }
 
 h1,
-h2,
 h4,
 p,
-a{
-    font-family: 'KoHo', sans-serif; 
+a,
+button{
+    font-family: 'Comfortaa', sans-serif; 
+}
+
+h2{
+    color: #628604;
 }
 
 #wp{
@@ -49,10 +54,17 @@ a{
     font-size: 30pt;
 }
 
+button,
+.btn{
+    background-color: #a9cf46 !important;
+    border: #a9cf46 !important;
+}
+
 /*Estilos nav*/
 
 nav.bg-dark{
-    background-color: rgba(0, 0, 0, 0.5) !important; 
+    background-color: transparent !important; 
+    border: none;
     color: #ffff;
 }
 
@@ -63,7 +75,7 @@ nav.bg-dark{
 }
 
 nav.bg-green{
-    background-color: #225a40ef !important;
+    background-color: #9cb16698 !important;
     padding: 10pt;
     font-size: 13pt;
     transition: all 1s ease;
@@ -82,11 +94,7 @@ nav.bg-green{
 }
 
 .jm{
-    color: white;
-}
-
-.jm:hover{
-    color: #cafabb;
+    width: 80pt;
 }
 
 /*Estilos header*/
@@ -105,6 +113,7 @@ header{
 }
 
 header h2{
+    color: white!important;
     font-size: 30pt;
 }
 
@@ -113,9 +122,14 @@ header p{
 }
 
 .btn-success{
+    color: black;
     padding: 10pt 45pt 10pt 45pt;
     border-radius: 5pt;
     font-size: 15pt;
+}
+
+.btn-success:hover{
+    color: #ee7733;
 }
 
 /*Estilos main*/
@@ -130,7 +144,7 @@ section h2{
 
 .i-service{
     color: white;
-    background-color: #198754;
+    background-color: #a9cf46;
     border-radius: 50%;
     width: 70pt;
     height: 70pt;
@@ -163,7 +177,7 @@ section{
 
 .modal-body h2{
     font-size: 3rem;
-    color: #198754;
+    color: #a9cf46;
 }
 
 .modal-footer{
@@ -174,7 +188,7 @@ section{
 /*About section*/
 
 h3{
-    color: #198754;
+    color: #a9cf46;
     font-size: 24pt;
 }
 
@@ -199,7 +213,7 @@ p{
 }
 
 #contact a{
-    color: rgb(11, 34, 0);
+    color: #a9cf46;
     font-size: 30pt;
     text-decoration: none;
 }
@@ -209,33 +223,37 @@ p{
     width: 100%;
 }
 
+.i-contact:hover{
+    color: #ee7733;
+}
+
 /*Footer*/
 
 footer{
-    background-color: #198754c4;
+    background-color: #9cb166d0;
     padding: 15pt;
 }
 
 footer h3{
-    color: rgb(11, 34, 0);
+    color: #ee7733b2;
 }
 
 footer p{
-    color: white;
+    color: black;
 }
 
 .i-footer{
-    color: rgb(11, 34, 0);
+    color: #ee7733b2;
     font-size: 18pt;
 }
 
 #final{
-    padding: 10pt;
+    padding: 5pt;
     text-align: center;
 }
 
 #final h1{
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 #final p{
