@@ -25,6 +25,7 @@ h2{
 
 #wp{
     position: fixed;
+    z-index: 100;
     bottom: 20px;
     right: 20px;
     background-color: rgba(38, 212, 105, 0.699);
